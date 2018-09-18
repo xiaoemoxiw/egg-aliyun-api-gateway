@@ -10,7 +10,9 @@
     "eggPlugin",
     "egg-plugin"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "aliyun-api-gateway": "^1.1.5"
+  },
   "devDependencies": {
     "autod": "^3.0.0",
     "autod-egg": "^1.0.0",
@@ -35,8 +37,6 @@
     "autod": "autod"
   },
   "files": [
-    "app.js",
-    "agent.js",
     "config"
   ],
   "ci": {
