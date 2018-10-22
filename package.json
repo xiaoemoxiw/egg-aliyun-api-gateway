@@ -1,18 +1,21 @@
 {
   "name": "egg-aliyun-api-gateway-full",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "eggPlugin": {
     "name": "aliyunApiGatewayFull"
   },
   "keywords": [
     "egg",
-    "eggPlugin",
-    "egg-plugin"
+    "aliyun",
+    "aliuyun-api-gateway"
   ],
   "dependencies": {
-    "aliyun-api-gateway": "^1.1.5",
-    "assert": "^1.4.1"
+    "assert": "^1.4.1",
+    "babel-runtime": "^6.23.0",
+    "debug": "^2.6.0",
+    "httpx": "^2.1.1",
+    "uuid": "^3.0.0"
   },
   "devDependencies": {
     "autod": "^3.0.0",
@@ -41,11 +44,6 @@
     "app.js",
     "config",
     "lib"
-  ],
-  "keywords": [
-    "egg",
-    "aliyun",
-    "aliuyun-api-gateway"
   ],
   "ci": {
     "version": "8, 9"
