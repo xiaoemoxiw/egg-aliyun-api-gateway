@@ -1,6 +1,6 @@
 {
   "name": "egg-aliyun-api-gateway-full",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "eggPlugin": {
     "name": "aliyunApiGatewayFull"
@@ -38,7 +38,14 @@
     "autod": "autod"
   },
   "files": [
-    "config"
+    "app.js",
+    "config",
+    "lib"
+  ],
+  "keywords": [
+    "egg",
+    "aliyun",
+    "aliuyun-api-gateway"
   ],
   "ci": {
     "version": "8, 9"
