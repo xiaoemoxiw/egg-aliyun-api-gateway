@@ -1,7 +1,7 @@
 'use strict';
 
 const assert = require('assert');
-const Client = require('./src/aliyun-api-gateway/client');
+const Client = require('./lib/aliyun-api-gateway/client');
 
 module.exports = app => {
 
