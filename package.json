@@ -11,7 +11,8 @@
     "egg-plugin"
   ],
   "dependencies": {
-    "aliyun-api-gateway": "^1.1.5"
+    "aliyun-api-gateway": "^1.1.5",
+    "assert": "^1.4.1"
   },
   "devDependencies": {
     "autod": "^3.0.0",
