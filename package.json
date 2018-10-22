@@ -1,6 +1,6 @@
 {
-  "name": "egg-aliyun-api-gateway",
-  "version": "1.0.0",
+  "name": "egg-aliyun-api-gateway-full",
+  "version": "1.0.1",
   "description": "",
   "eggPlugin": {
     "name": "aliyunApiGateway"
@@ -45,12 +45,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-aliyun-api-gateway.git"
+    "url": "git+https://github.com/xiaoemoxiw/egg-aliyun-api-gateway.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/xiaoemoxiw/egg-aliyun-api-gateway/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-aliyun-api-gateway#readme",
+  "homepage": "https://github.com/xiaoemoxiw/egg-aliyun-api-gateway",
   "author": "yuxuewen",
   "license": "MIT"
 }
