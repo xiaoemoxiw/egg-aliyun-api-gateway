@@ -4,8 +4,11 @@ const Controller = require('egg').Controller;
 
 class HomeController extends Controller {
   async index() {
-    this.ctx.body = 'hi, ' + this.app.plugins.aliyunApiGateway.name;
+    this.ctx.body = this.app.plugins.aliyunApiGatewayFull.name;
+
   }
+
+
 }
 
 module.exports = HomeController;

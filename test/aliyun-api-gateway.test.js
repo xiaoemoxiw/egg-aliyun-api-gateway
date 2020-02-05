@@ -17,7 +17,7 @@ describe('test/aliyun-api-gateway.test.js', () => {
   it('should GET /', () => {
     return app.httpRequest()
       .get('/')
-      .expect('hi, aliyunApiGateway')
+      .expect('aliyunApiGatewayFull')
       .expect(200);
   });
 });
