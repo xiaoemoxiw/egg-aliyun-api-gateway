@@ -316,16 +316,6 @@ ajv@^5.2.3, ajv@^5.3.0:
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.3.0"
 
-aliyun-api-gateway@^1.1.5:
-  version "1.1.5"
-  resolved "http://registry.npm.taobao.org/aliyun-api-gateway/download/aliyun-api-gateway-1.1.5.tgz#13e9047fdbfd9e95938acd8392a1b42486382b79"
-  integrity sha1-E+kEf9v9npWTis2DkqG0JIY4K3k=
-  dependencies:
-    babel-runtime "^6.23.0"
-    debug "^2.6.0"
-    httpx "^2.1.1"
-    uuid "^3.0.0"
-
 amdefine@>=0.0.4:
   version "1.0.1"
   resolved "http://registry.npm.taobao.org/amdefine/download/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
@@ -2062,9 +2052,9 @@ decamelize@^2.0.0:
     xregexp "4.0.0"
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "http://registry.npm.taobao.org/decode-uri-component/download/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-equal@^1.0.0, deep-equal@~1.0.1:
   version "1.0.1"
